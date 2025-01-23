@@ -2,4 +2,4 @@ from main import Book
 
 book = Book()
 
-book.check()
+print(book.__price)

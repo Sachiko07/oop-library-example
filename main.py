@@ -17,7 +17,7 @@ class Book:
         self.author = "Tinashe Murungweni"
         self.id_number = "34676"
         self.category = "Information & Technology"
-        __price = 8.99
+        self.__price = 8.99
 
     def check(self):
         print(self.__price)
