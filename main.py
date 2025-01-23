@@ -1,17 +1,26 @@
 class Library:
-    name = "Tinashe's Library"
-    address = "36 Lansville Road"
-    book = ["OOP Project", "Divergent", "Harry Potter"]
+    def _init__(self):
+        self.name = "Tinashe's Library"
+        self.address = "36 Lansville Road"
+        self.book = ["OOP Project", "Divergent", "Harry Potter"]
+        self.borrowings = []
+
+    def borrow_book(self, book_id, user_id, librarian_id):
+        self.borrowings.append(self.book(book_id))
+        print(self.borrowings)
+
 
 
 class Book:
     def __init__(self, title, author, id_number, category, __price):
-        title = "OOP Project"
-        author = "Tinashe Murungweni"
-        id_number = "34676"
-        category = "Information & Technology"
+        self.title = "OOP Project"
+        self.author = "Tinashe Murungweni"
+        self.id_number = "34676"
+        self.category = "Information & Technology"
         __price = 8.99
 
+    def check(self):
+        print(self.__price)
 
 class Borrowing:
     def __init__(self, user_id, book, borrow_date, return_date, librarian_id):
