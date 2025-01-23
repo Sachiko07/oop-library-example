@@ -1,5 +1,6 @@
-from main import Book
-
-book = Book(8.99)
-
-print(book.author)
+class Book:
+    title = "OOP Project"
+    author = "Tinashe Murungweni"
+    id_number = "34676"
+    category = "Information & Technology"
+    __price = 8.99
