@@ -1,9 +1,8 @@
 class Library:
-    def _init__(self):
-        self.name = "Tinashe's Library"
-        self.address = "36 Lansville Road"
-        self.book = ["OOP Project", "Divergent", "Harry Potter"]
-        self.borrowings = borrowings
+    name = "Tinashe's Library"
+    address = "36 Lansville Road"
+    book = ["OOP Project", "Divergent", "Harry Potter"]
+    borrowings = []
 
     def borrow_book(self, book_id, user_id, librarian_id):
         self.borrowings.append(self.book(book_id))
