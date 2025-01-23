@@ -3,12 +3,32 @@ class Library:
     address = "36 Lansville Road"
     book = ["OOP Project", "Divergent", "Harry Potter"]
 
+
 class Book:
     title = "OOP Project"
     author = "Tinashe Murungweni"
     id_number "34676"
     category = "Information & Technology"
     __price = 8.99
-    
+
+
+class Borrowing:
+    user_id = ""
+    book = ""
+    borrow_date = ""
+    return_date = ""
+    librarian_id = ""
+
+
+
+
+class Person:
+    pass
+
+class User(Person):
+    pass
+
+class Librarian(Person):
+    pass
 
     
