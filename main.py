@@ -10,15 +10,6 @@ class Library:
         print(self.borrowings)
 
 
-
-class Book:
-    def __init__(self, title, author, id_number, category, __price):
-        self.title = "OOP Project"
-        self.author = "Tinashe Murungweni"
-        self.id_number = "34676"
-        self.category = "Information & Technology"
-        self.__price = 8.99
-
     def check(self):
         print(self.__price)
 
@@ -31,16 +22,15 @@ class Borrowing:
         librarian_id = ""
 
 
-
-
-
-
 class Book:
-    title = "OOP Project"
-    author = "Tinashe Murungweni"
-    id_number ="34676"
-    category = "Information & Technology"
-    __price = 8.99
+    def __init__(self, title, author, id_number, category, __price):
+        self.title = "OOP Project"
+        self.author = "Tinashe Murungweni"
+        self.id_number = "34676"
+        self.category = "Information & Technology"
+        self.__price = 8.99
+
+
 
 
 class Person:
@@ -53,3 +43,6 @@ class Librarian(Person):
     pass
 
     
+
+
+

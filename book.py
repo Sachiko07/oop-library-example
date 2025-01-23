@@ -1,5 +1,5 @@
 from main import Book
 
-book = Book()
+book = Book(8.99)
 
-print(book.__price)
+print(book.author)
