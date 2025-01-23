@@ -8,5 +8,5 @@ class Library:
         self.borrowings.append(self.books[book_id])
         print(self.borrowings)
 
-    """def return_book(self, book_id, user_id, librarian_id):
-        self.books."""
+    def return_book(self, book_id, user_id, librarian_id):
+        self.borrowings.pop(self.borrowings[book_id])

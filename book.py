@@ -1,6 +1,16 @@
+from library import Library
+
+
+
+
+
 class Book:
-    title = "OOP Project"
-    author = "Tinashe Murungweni"
-    id_number = "34676"
-    category = "Information & Technology"
-    __price = 8.99
+    def __init__(self, title, author, id_number, category, __price):
+        title = ""
+        author = ""
+        id_number = ""
+        category = ""
+        __price = ""
+
+    def addBook(self,title, author, id_number, category, __price):
+        library 
