@@ -8,7 +8,7 @@ class Book:
     author = "Tinashe Murungweni"
     id_number "34676"
     category = "Information & Technology"
-    price = 8.99
+    __price = 8.99
     
 
     
