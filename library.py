@@ -6,7 +6,8 @@ class Library:
 
     def borrow_book(self, book_id, user_id, librarian_id):
         self.borrowings.append(self.books[book_id])
-        print(self.borrowings)
+        print(f" {user_id} has borrowed {self.borrowings}")
 
     def return_book(self, book_id, user_id, librarian_id):
         self.borrowings.pop(self.borrowings[book_id])
+        print(f" {user_id} returned {self.borrowings}")

@@ -12,5 +12,4 @@ class Book:
         category = ""
         __price = ""
 
-    def addBook(self,title, author, id_number, category, __price):
-        library 
+
